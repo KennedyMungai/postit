@@ -4,7 +4,11 @@ import React from 'react'
 const Nav = async () =>
 {
     return (
-        <nav>Nav</nav>
+        <nav>
+            <Link href={'/'}>
+                <h1>Send it.</h1>
+            </Link>
+        </nav>
     )
 }
 

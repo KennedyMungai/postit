@@ -9,6 +9,9 @@ const Nav = () =>
             <Link href={'/'}>
                 <h1>Send it.</h1>
             </Link>
+            <ul>
+                <Login />
+            </ul>
         </nav>
     )
 }

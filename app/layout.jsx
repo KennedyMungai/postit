@@ -1,14 +1,12 @@
 import Nav from './auth/Nav'
 import './globals.css'
-import { Roboto } from '@next/font/google'
+// import { Roboto } from '@next/font/google'
 
-const roboto = Roboto(
-  {
-    subsets: ['latin'],
-    weight: ['400', '700'],
-    variable: '--font-roboto'
-  }
-)
+// const roboto = Roboto({
+//   subsets: ["latin"],
+//   weight: ["400", "700"],
+//   variable: "--font-roboto",
+// })
 
 export const metadata = {
   title: 'Create Next App',
@@ -21,7 +19,7 @@ export default function RootLayout({
 {
   return (
     <html lang="en">
-      <body>
+      <body className='mx-4 md:mx-48 xl: mx-96'>
         <Nav />
         {children}
       </body>

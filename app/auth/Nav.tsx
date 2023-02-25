@@ -7,7 +7,7 @@ const Nav = () =>
     return (
         <nav className='flex justify-between items-center py-8'>
             <Link href={'/'}>
-                <h1>Send it.</h1>
+                <h1 className='font-bold text-lg'>Send it.</h1>
             </Link>
             <ul>
                 <Login />

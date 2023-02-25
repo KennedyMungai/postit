@@ -6,7 +6,10 @@ const Login = () =>
 {
     return (
         <li className='list-none'>
-            <button className="text-sm">
+            <button
+                className="text-sm"
+                onClick={() => signIn()}
+            >
                 Sign In
             </button>
         </li>

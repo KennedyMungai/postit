@@ -1,5 +1,6 @@
 import Nav from './auth/Nav'
 import './globals.css'
+import { Roboto } from '@next/font/google'
 
 export const metadata = {
   title: 'Create Next App',

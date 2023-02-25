@@ -5,7 +5,7 @@ import Login from './Login'
 const Nav = () =>
 {
     return (
-        <nav>
+        <nav className='flex justify-between items-center py-8'>
             <Link href={'/'}>
                 <h1>Send it.</h1>
             </Link>
